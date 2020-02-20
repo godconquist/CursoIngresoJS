@@ -3,14 +3,16 @@ function mostrar()
 
 	var contador=0;
 	//declarar contadores y variables 
-	
+	var numero
 	var respuesta="si";
 
-	while(respuesta!="no")
-	{
+
+	do{
+		numero= parseInt(prompt("ingrese un numero"));
 		
-	
-	}
+			
+			
+     }while(respuesta!="no")
 
 
 
