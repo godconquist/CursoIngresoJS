@@ -4,15 +4,18 @@ while(isNaN(numero)){
     numero = parseInt(prompt("ese no es un numero.ingrese un numero"))
 }
 var contadordepar = 0;
-for(var contador = 1;contador <= numero;contador ++){
-    if(contador /2 == 0) {
-        console.log(contador)
-    contadordepar = contadordepar + 1 
-    }
+for(var contador = 1;contador <= numero; contador++){
+   if(contador % 2 == 0){
+       console.log(contador);
+       contadordepar++;
+   }
+   
+        
+    
 
 }
 
-document.write("el numero es" + contadordepar +"</br>")
+console.log("cantidad de pares encontrado"+ contadordepar)
 
 
 }//FIN DE LA FUNCIÓN
